@@ -4,15 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Multiplicación: {Multiply(2, 3)}");
+            Console.WriteLine($"Resta: {Subtract(2, 2)}");
         }
+
         static int Add(int x, int y)
         {
             return x + y;
         }
+
         static int Multiply(int x, int y)
         {
             return x * y;
+        }
+
+        static int Subtract(int x, int y)
+        {
+            return x - y;
         }
     }
 }
